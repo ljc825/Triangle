@@ -4,13 +4,13 @@ public class Triangle {
 	public int a;
 	public int b;
 	public int c;
-	public Triangle(int x,int y,int z)
+	public Triangle(int a,int b,int c)
 	{
-		a=x;
-		b=y;
-		c=z;
+		this.a=a;
+		this.b=b;
+		this.c=c;
 	}
-	public String judge() {
+	String judge() {
 		if(a==b&&b==c)
 			return "equilateral";
 		else if(a==b||b==c||c==a)
