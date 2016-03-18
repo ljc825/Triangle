@@ -10,7 +10,7 @@ public class Triangle {
 		this.b=b;
 		this.c=c;
 	}
-	String judge() {
+	public String judge() {
 		if(a==b&&b==c)
 			return "equilateral";
 		else if(a==b||b==c||c==a)
